@@ -11,6 +11,9 @@ body {
 a {
   color: #149ddd;
   text-decoration: none;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
 
 a:hover {
@@ -75,6 +78,9 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
+}
+.text-light {
+  display: block;
 }
 
 #header .profile img {
@@ -303,10 +309,11 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background: #121212;
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #1f2124;
 }
 
 .section-title {
@@ -335,6 +342,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -370,6 +378,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -391,7 +400,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #fff;
 }
 
 .skills .progress .skill .val {
